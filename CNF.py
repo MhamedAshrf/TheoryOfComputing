@@ -8,7 +8,7 @@ CFG = {}
 #taking input and forming the dictionary
 while tempinput[0] != "end" :
     CFG[tempinput[0]] = tempinput[1].split("|")
-    tempinput = input().split(" ")
+    tempinput = input().split(" " )
 
 
 #function to elimenata the epsilons from terminals
